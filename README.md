@@ -35,7 +35,7 @@ Si tu veux récupérer la configuration de base sans l'historique Git et travail
 1. Clonez le dépôt sans le dossier `.git` en utilisant les commandes suivantes :
 
    ```bash
-   git clone --depth 1 --branch main --single-branch --no-checkout https://github.com/EvenZeppa/web-config-base.git
+   git clone --depth 1 --branch main --single-branch --no-checkout https://github.com/EvenZeppa/web-config-base.git ton-repository
    cd ton-repository
    git checkout -- .
    rm -rf .git
